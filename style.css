@@ -1,74 +1,101 @@
- *{
-        margin:0;
-        padding:0;
-    }
-    .bgimg{
-        width:100%;
-        height:100vh;
-        background-image: linear-gradient(27deg,hsl(308, 95%, 43%) 50%,hsla(300, 64%, 36%, 0.922) 50%);
-    }
-    .centerdiv{
-        width: 350px;
-        height:400px;
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-50%);
-        background-image: linear-gradient(27deg,hsla(290, 58%, 46%, 0.922) 50%,hsl(316, 94%, 40%) 50%);
+*{
+    margin: 0;
+    padding:0;
+}
+
+.bgimg{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(27deg, rgb(98, 202, 101) 50% ,rgb(7, 128, 7) 50% );
+    /* background-color: red; */
+}
+
+.loginpic{
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-image: linear-gradient(27deg,hsla(129, 88%, 30%, 0.922) 50%,hsl(126, 48%, 57%) 50%);
         box-shadow: 0 1px 6px rgba(0,0,0,0.12),0 1px px rgba(0,0,0,0.24);
-    }
-    .centerdiv img{
-        border-radius: 50%;
-      }
-      #profilepic{
-        width:120px;
-        height:120px;
-        position:relative;
-        top:-60px;
-        left:calc((350px - 120px)/2);
-        }
-        h2{
-            text-align:center;
-            color:white;
-            text-transform: uppercase;
-            font-size: 2em;
-            word-spacing: 10px;
-            margin-top: -50px;
-            margin-bottom: 50px;
-            text-shadow: -2px 2px 1px #0A84C6;
-        }
-        .inputbox{
-            width:calc(100% - 40px);
-            height:30px;
-            display: block;
-            margin:auto;
-            padding:0 10px;
-            box-sizing: border-box;
-        }
-        ::placeholder{
-            letter-spacing: 2px;
-            color:black
-        }
-        button{
-            width:calc(100% - 40px);
-            height:30px;
-            display: block;
-            margin:auto;
-            color:white;
-            background-color: #0A84C6;
-            border:none;
-    
-        }
-        .forget{
-            width:calc(100% - 40px);
-            height:30px;
-            display: block;
-            margin:auto;
-            color:white;
-            background-color: dodgerblue;
-            text-transform: uppercase;
-            font-size:0.8em;
-            text-align: right;
-            padding-right: 20px;
-            box-sizing: border-box;
-        }
+}
+
+#profilepic{
+
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -15%;
+    left: calc((380px - 120px)/2);
+}
+.loginpic img{
+    border-radius: 50%;
+}
+
+h2{
+    text-align:center;
+    color: rgb(1, 1, 12);
+    text-transform: uppercase;
+    font-size: 2em ;
+    word-spacing: 1px ;
+    margin-top: 0.01px ;
+    margin-bottom:10px ;
+    text-shadow: -1.5px 1px 1px #1d3d25 ;
+
+}
+
+.inputbox{
+    width:399px ;
+    height:27px ;
+    display:block ;
+    margin:1px ;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+::placeholder{
+    letter-spacing: 0.1em;
+    color: rgb(29, 27, 27);
+    /* display: block;
+    margin: auto; */
+    /* width: 400px;
+    height: 25px; */
+}
+
+button{
+    width: 400px;
+    height: 25px;
+    display: block;
+    margin:auto ;
+    color:white ;
+    background-color:rgb(27, 27, 238) ;
+    border:rgb(120, 99, 99);
+    font-size:1.2em ;
+    letter-spacing: 0.3em;
+}
+button:hover{
+    color: rgb(246, 8, 8);
+    /* border-radius: 40%; */
+}
+
+
+.forget{
+    text-align: center;     
+    /* width: 10px; */
+    /* height:70px ; */
+    /* display:block ; */
+    margin: 10px;
+    color:rgb(249, 245, 245) ;
+    /* background-color:black ; */
+    /* text-transform: lowercase; */
+    font-size: 1.2em;
+    /* padding-right:0px ; */
+    /* box-sizing: border-box; */
+
+}
+
+.forget:hover{
+    color: rgb(58, 19, 218);
+}
